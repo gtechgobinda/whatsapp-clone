@@ -1,12 +1,10 @@
-"use client";
-import React from "react";
+import Test from "./components/test/index.jsx";
 
-const Home = () => {
+export default function Home() {
   return (
     <>
       <p>Hello world</p>
+      <Test />
     </>
   );
-};
-
-export default Home;
+}
